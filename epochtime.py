@@ -26,7 +26,7 @@ def hello():
         else:
             flash('Error: Enter Epoch time in proper format')
  
-    return render_template('hello.html', form=form)
+    return render_template('epoch.html', form=form)
  
 if __name__ == "__main__":
     app.run(host='0.0.0.0',port=5400)
